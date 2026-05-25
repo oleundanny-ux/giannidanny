@@ -1,0 +1,19 @@
+{
+  "name": "guardian-bot",
+  "version": "1.0.0",
+  "description": "Guardian Discord Bot — Anti-Raid, Anti-Invite, Giveaway, Events, Love System",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "echo 'No build needed — dist/ is pre-compiled'"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
